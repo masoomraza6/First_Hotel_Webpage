@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h3><a href="/">Hotels</a></h3>
+        <ul>
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="main">
+            <button class="btn">Book Now</button>
+        </div>
+        <form action="#">
+            <div class="box">
+                <div class="form-content">
+                    <input type="range" id="priceRange" min="500" max="3000" value="0">
+                    <p id="price">Price: ( 500 )</p>
+                </div> 
+                <div class="form-content">
+                    <label for="pickup">Pickup</label>
+                    <select id="roomType">
+                        <option value="Chandigarh">Chandigarh</option>
+                        <option value="delhi">Delhi</option>
+                    </select>
+                </div> 
+            </div>
+        </form>
+        <div class="hotels"></div>
+        <form action="" id="form2">
+            <div class="form-content">
+                First Name: <input type="text" id="firstName">
+            </div>
+            <div class="form-content">
+                Last Name: <input type="text" id="lastName">
+            </div>
+            <div class="form-content">
+                Number: <input type="number" id="number">
+            </div>
+            <div class="form-content">
+                Email: <input type="text" id="email">
+            </div>
+            <div class="form-content">
+                Price: <input type="number" name="" id="price1">
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p> <span style="color: blueviolet">Contact</span> : 6006797142</p>
+    </footer>
+</body>
+<script src="/script.js"></script>
+
+</html>
